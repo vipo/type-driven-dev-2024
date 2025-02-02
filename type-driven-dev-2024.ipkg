@@ -1,0 +1,9 @@
+package type-driven-dev-2024
+
+version = 0.1.0
+main = Main
+
+depends = linear
+
+executable = "type-driven-dev-2024"
+sourcedir = "src"
