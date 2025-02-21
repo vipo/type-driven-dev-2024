@@ -81,7 +81,8 @@ Cast (Maybe a) (List a) where
 --    bar :: String
 -- }
 
-exactLength : {m : Nat} -> (len : Nat) -> (input : Vect m a) -> Maybe (Vect len a)
-exactLength len input = case m == len of
-                             False => Nothing
-                             True => Just input
+failing
+    exactLength : {m : Nat} -> (len : Nat) -> (input : Vect m a) -> Maybe (Vect len a)
+    exactLength len input = case m == len of
+                                False => Nothing
+                                True => Just input
