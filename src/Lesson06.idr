@@ -1,4 +1,4 @@
--- Curry-Howard correspondence, predicate logic.
+||| Curry-Howard correspondence, propositional logic.
 module Lesson06
 %default total
 
